@@ -14,3 +14,11 @@ def update_counting_hash(hash, key)
   end
   hash              #i forgot to return the hash, which was holding it up from passing 
 end
+
+
+#alternative approach 
+
+#def update_counting_hash(hash, key) 
+# hash[key] ? hash[key] += 1 : hash[key] = 1
+# hash
+#end
